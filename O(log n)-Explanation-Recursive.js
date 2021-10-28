@@ -1,0 +1,10 @@
+// Logarithms 
+// A Logarithm is the power a number needs to be raised to get another number 
+
+// O(log n)
+
+function logFunc(n) {
+    if (n === 0) return "Done";
+    n = Math.floor(n / 2);
+    return logFunc(n);
+}
